@@ -1,0 +1,92 @@
+.etcetera {
+  width: 100%;
+  overflow: hidden;
+}
+
+.etc_top {
+  width: 100%;
+  height: 144px;
+  padding-top: 72px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.etc_main {
+  width: 100%;
+  overflow: hidden;
+  padding: 40px;
+  border-radius: 24px;
+  background-color: #f4f8fb;
+}
+
+.etc_wrap {
+  width: 100%;
+  height: fit-content;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+}
+
+.etc {
+  height: 416px;
+}
+
+.etc_site {
+  width: 100%;
+  height: 256px;
+}
+
+.etc_site img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.etc_site img:hover {
+  border: 2px solid #1d9bf0;
+  opacity: 0.7;
+  transform: scale(0.9);
+}
+
+.etc_explain {
+  width: 100%;
+  height: 160px;
+  padding-top: 24px;
+}
+
+.etc_title {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.etc_detail {
+  height: 32px;
+  margin-top: 16px;
+  margin-bottom: 40px;
+  font-size: 16px;
+  color: #919191;
+}
+
+.etc_end {
+  width: 100%;
+  display: flex;
+  font-size: 12px;
+}
+
+.etc_level {
+  width: 80px;
+  text-align: center;
+  border-radius: 10px;
+  margin-right: 10px;
+  background-color: sandybrown;
+}
+
+.etc_reaction {
+  width: 80px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #8bb3e9;
+}

@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #000;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+body {
+    font-family: 'pretendard';
+    font-size: 20px;
+}
+
+#wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    overflow: hidden;
+    z-index: 9;
+    background-color: blue;
+}
+
+/* main */
+
+#main_wrap {
+    width: calc(100% - 320px);
+    overflow: hidden;
+    position: relative;
+    /* top: 0; */
+    /* left: 320px; */
+    z-index: 99;
+    background-color: salmon;
+}
+
+.main {
+    width: 90%;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+    background-color: seagreen;
+}
+
+.portfolio {
+    width: 100%;
+    overflow: hidden;
+    /* position: relative; */
+}
+
+.port_top {
+    width: 100%;
+    height: 144px;
+    padding-top: 72px;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: slateblue;
+}
+
+.port_middle {
+    width: 100%;
+    height: 336px;
+    /* padding: 24px; */
+    /* border-radius: 24px; */
+    display: flex;
+    background-color: gray;
+}
+
+.intro {
+    width: 65%;
+    height: 336px;
+    padding: 24px;
+    border-radius: 24px;
+    display: flex;
+    background-color: sienna;
+}
+
+.intro_left {
+    width: 60%;
+    height: 288px;
+    padding: 24px;
+    border-radius: 24px ;
+    background-color: hotpink;
+}
+
+.intro_top {
+    width: 100%;
+    height: 160px;
+    display: flex;
+    /* background-color: green; */
+}
+
+.my {
+    width: 160px;
+    height: 160px;
+    border-radius: 24px;
+    background-color: #1d9bf0;
+}
+
+.hello {
+    width: 312px;
+    line-height: 24px;
+    padding: 20px 20px;
+    font-size: 16px;
+    color: #919191;
+    background-color: khaki;
+}
+
+.hello p {
+    line-height: 32px;
+    font-size: 20px;
+}
+
+.hello span {
+    font-weight: bold;
+}
+
+.intro_bottom {
+    width: 95%;
+    height: 56px;
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #e5f4ff;
+}
+
+.intro_bottom img {
+    width: 24px;
+    height: 24px;
+}
+
+.intro_bottom a {
+    color: #4154cd;
+    margin-left: 12px;
+}
+
+.skill {
+    width: calc(40% - 24px);
+    height: 288px;
+    margin-left: 24px;
+    padding-top: 24px;
+    border-radius: 24px;
+    background-color: chocolate;
+}
+
+.skill p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.about {
+    width: calc(35% - 24px);
+    height: 336px;
+    margin-left: 24px;
+    padding: 24px;
+    border-radius: 24px;
+    background-color: wheat;
+}
+
+.about p {
+    font-weight: bold;
+}
+
+
+/* --------------------- */
+
+/* works */
+
+.works {
+    width: 100%;
+    overflow: hidden;
+}
+
+.works_top {
+    width: 100%;
+    height: 88px;
+    padding-top: 48px;
+    font-weight: bold;
+    background-color: silver;
+}
+
+.works_main {
+    width: 100%;
+    overflow: hidden;
+    padding: 40px;
+    background-color: slategrey;
+}
+
+.work_wrap {
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 48px;
+    grid-row-gap: 48px;
+
+}
+
+.work {
+    height: 512px;
+    background-color: slateblue;
+}
+
+/* ------------------------------ */
+
+#title_menu_wrap {
+    width: 320px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    height: 100vh;
+    /* overflow: hidden; */
+    background-color: #222;
+
+}
+
+.title {
+    width: 320px;
+    height: 144px;
+    text-align: center;
+    padding-top: 40px;
+    color: #fff;
+    background-color: seagreen;
+}
+
+.title span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.menu {
+    width: 320px;
+    margin-top: 120px;
+    background-color: skyblue;
+}
+
+.list {
+    width: 240px;
+    height: 72px;
+    line-height: 72px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 80px;
+    border: 1px solid #222;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.list img {
+    width: 24px;
+    height: 24px;
+    margin: 0 16px;
+}
+
+.list a {
+    width: 100%;
+    height: 100%;
+    /* background-color: saddlebrown; */
+}
+
+
+
+
+
+

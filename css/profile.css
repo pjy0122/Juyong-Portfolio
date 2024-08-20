@@ -1,0 +1,94 @@
+.profile {
+  width: 100%;
+  overflow: hidden;
+}
+
+.profile_top {
+  width: 100%;
+  height: 144px;
+  padding-top: 72px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.profile_main {
+  width: 100%;
+  overflow: hidden;
+}
+
+.profile_detail {
+  width: 100%;
+  height: 64px;
+  line-height: 64px;
+  padding: 0 24px;
+  display: flex;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.profile_detail span {
+  margin-left: 80px;
+  color: #919191;
+}
+
+#detail_act {
+  width: 100%;
+  height: 304px;
+}
+
+.act_explain {
+  padding: 0 0 24px 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.act_explain p {
+  height: 40px;
+  color: #222;
+  font-weight: 600;
+}
+
+#act_explain2 {
+  display: block;
+  text-align: left;
+}
+
+#act_explain2 p {
+  font-weight: normal;
+  color: #919191;
+}
+
+.de_title {
+  width: 72px;
+  font-weight: bold;
+}
+
+.profile_download {
+  width: 100%;
+  height: 200px;
+  position: relative;
+}
+
+.down_button {
+  width: 200px;
+  height: 48px;
+  line-height: 20px;
+  padding-top: 4px;
+  display: inline-block;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #007bff;
+}
+
+.down_button:hover {
+  background-color: #0056b3;
+}
