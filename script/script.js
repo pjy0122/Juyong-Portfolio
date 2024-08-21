@@ -38,3 +38,7 @@ $(".list_flex").click(function () {
   $listTitle.slideToggle(300);
   $(this).toggleClass("open");
 });
+
+document.querySelector('.title').addEventListener('click', function() {
+  window.location.href = 'index.html';
+});
