@@ -394,8 +394,9 @@ body {
 }
 
 .ex_detail {
+  width: 100%;
   height: 32px;
-  margin: 16px 0;
+  margin: 20px 0;
   font-size: 16px;
   color: #919191;
 }
@@ -428,6 +429,12 @@ body {
   width: 80px;
   border-radius: 10px;
   background-color: #cb8be9;
+}
+
+#ex_git_geared {
+  width: 80px;
+  border-radius: 10px;
+  background-color: #0096ff;
 }
 
 .ex_git a {
